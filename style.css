@@ -1,0 +1,167 @@
+body {
+    width: 901px;
+    margin: 0 auto;
+}
+
+#ingredients {
+    display: flex;
+    height: 305px;
+    justify-content: space-around;
+    background-image: url("/assets/list-bg.png");
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 34px;
+    padding-left: 0px;
+}
+
+.author-headshot {
+    margin-right: -100px;
+}
+
+#author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 175px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    background: #bc7058
+}
+
+hr {
+    background-image: url("/assets/hr-img.png");
+    height: 12px;
+    border: none;
+    margin-top: 35px;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-spacing {
+    width: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-subtitle {
+    font-size: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+#header-flex {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+    line-height: 0.4em;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Yellowtail', cursive;
+    opacity: 0.80;
+    font-size: 36px;
+}
+
+.pin {
+    margin-right: 10px;
+}
+
+footer hr {
+    width: 901px;
+    background-image: none;
+    display: inline-block;
+    border: 0.1px solid lightgray;
+    height: 1px;
+}
+
+#footer-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 31px;
+    height: 33px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+#subtitle p {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 12px;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 35px;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.85;
+    font-size: 36px;
+}
+
+.main-p {
+    font-family: 'Lora', serif;
+    text-indent: 3%;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 1.55em;
+    color: #6d655a;
+    opacity: 0.85;
+}
+
+#author p {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: 14px;
+}
+
+#author h2 {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: 18px;
+}
+
+footer p {
+    font-family: 'Lora', serif;
+    font-size: 0.8em;
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+
