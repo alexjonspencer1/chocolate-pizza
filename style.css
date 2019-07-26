@@ -15,8 +15,7 @@ ul {
 }
 
 .author-headshot {
-    float: left;
-    margin-right: 20px;
+    margin-right: -100px;
 }
 
 #author {
@@ -27,5 +26,80 @@ ul {
 
 button {
     height: 50px;
-    width: 200px;
+    width: 175px;
+}
+
+hr {
+    background-image: url("/assets/hr-img.png");
+    height: 12px;
+    border: none;
+    margin-top: 35px;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-spacing {
+    width: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-subtitle {
+    font-size: 15px;
+}
+
+#header-flex {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+    line-height: 0.5em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pin {
+    margin-right: 10px;
+}
+
+footer hr {
+    width: 901px;
+    background-image: none;
+    display: inline-block;
+    border: 0.1px solid lightgray;
+    height: 1px;
+}
+
+#footer-flex {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 31px;
+    height: 33px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+#subtitle p {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 0;
 }
